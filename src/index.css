@@ -1,0 +1,30 @@
+body {
+  background-color: #ff69b4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.catcontainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.listing-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.katzenbild {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin: 10px;
+}
